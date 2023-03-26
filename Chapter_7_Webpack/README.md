@@ -13,3 +13,7 @@ yarn build
 ```
 
 to bundle your application
+
+Note:
+
+In order to work with TypeScript files extention, you need to omit .ts extention in import statement (don't follow book's recommendation)
