@@ -6,4 +6,4 @@ There is some useful overall explanation on tools, but not proper practical exam
 
 I stopped MailBag development as there were no real SMTP / IMAP servers to test on.
 
-Note to myself for future references, if I'd like to countinue: stopped at page 233 (of pdf), Chapter 9.
+Note to myself for future references, if I'd like to continue: stopped at page 233 (of pdf), Chapter 9.
