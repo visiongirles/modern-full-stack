@@ -4,6 +4,6 @@ Although, some minor issues and misleads as well as not-up-to-date info are norm
 
 There is some useful overall explanation on tools, but not proper practical examples.
 
-I stopped MailBag development as there was no real SMTP / IMAP servers to test on.
+I stopped MailBag development as there were no real SMTP / IMAP servers to test on.
 
-Note to myself for future references, if I 'd like to countinue: stopped at page 233 (of pdf), Chapter 9.
+Note to myself for future references, if I'd like to countinue: stopped at page 233 (of pdf), Chapter 9.
