@@ -29,24 +29,27 @@ export class Worker {
     });
   }
 
-  public addContact(InContact: IContact): Promise<IContact> {
+  public addContact(inContact: IContact): Promise<IContact> {
     return new Promise((inResolve, inReject) => {
-      this.database.insert(InContact, (inError: Error, inNewDoc: IContact) => {
-        if (inError) {
-          inReject(inError);
-        } else {
-          inResolve(inNewDoc);
+      this.database.insert(
+        inContact,
+        (inError: Error | null, inNewDoc: IContact) => {
+          if (inError) {
+            inReject(inError);
+          } else {
+            inResolve(inNewDoc);
+          }
         }
-      });
+      );
     });
   }
 
-  public DeleteContact(inId: string): Promise<string> {
+  public deleteContact(inId: string): Promise<string | void> {
     return new Promise((inResolve, inReject) => {
       this.database.remove(
         { _id: inId },
         {},
-        (inError: Error, inNumRemoved: number) => {
+        (inError: Error | null, inNumRemoved: number) => {
           if (inError) {
             inReject(inError);
           } else {

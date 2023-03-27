@@ -1,13 +1,20 @@
-{
-  "smtp": {
-    "host": "mail.mydomain.com",
-    "port": 999,
-    "auth": { "user": "user@domain.com", "pass": "xxx" }
-  },
 
-  "imap": {
-    "host": "mail.mydomain.com",
-    "port": 999,
-    "auth": { "user": "user@domain.com", "pass": "xxx" }
-  }
-}
+// This is bogus. Stopped developemnt fo the app as there is no real example
+// {
+//   "smtp": {
+//     "host": "my_smtp_server_address",
+//     "port": 465,
+//     "auth": {
+//       "user": "my_smtp_username",
+//       "pass": "my_smtp_password"
+//     }
+//   },
+//   "imap": {
+//     "host": "my_imap_server_address",
+//     "port": 993,
+//     "auth": {
+//       "user": "my_imap_username",
+//       "pass": "my_imap_password"
+//     }
+//   }
+// }
