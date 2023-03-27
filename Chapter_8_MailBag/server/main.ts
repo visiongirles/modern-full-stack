@@ -3,8 +3,8 @@ import express, { Express, NextFunction, Request, Response } from 'express';
 import { serverInfo } from './ServerInfo';
 import * as IMAP from './IMAP';
 import * as SMTP from './SMTP';
-import * as Contracts from './Contracts';
-import { IContact } from './Contracts';
+import * as Contacts from './Contacts';
+import { IContact } from './Contacts';
 
 const app: Express = express();
 app.use(express.json());
